@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 serenity = "0.12"
+sqlx = "0.8.3"
+tokio = { version = "1", features = ["full"] }
