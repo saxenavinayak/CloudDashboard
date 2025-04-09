@@ -1,7 +1,7 @@
 -- Add migration script here
-CREATE TABLE IF NOT EXISTS messages (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+CREATE TABLE messages (
+    id SERIAL PRIMARY KEY,
     user_id TEXT NOT NULL,
     content TEXT NOT NULL,
-    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+    timestamp TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
 );
