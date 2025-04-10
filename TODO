@@ -1,1 +1,5 @@
 - Add user status check
+- Fns to get metrics of a user
+- Ie call getmostWords(dataBase, user_id) -> returns most said word
+- Backfill script? Last read messages -> import them to db
+- 
